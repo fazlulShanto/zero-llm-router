@@ -1,0 +1,60 @@
+{
+  "name": "zero-llm-router",
+  "version": "0.1.0",
+  "description": "Zero-infrastructure LLM request router for Vercel AI SDK — load balancing, rate-limit tracking, circuit breaking, and automatic fallback across free-tier providers.",
+  "keywords": [
+    "llm",
+    "router",
+    "ai-sdk",
+    "vercel",
+    "load-balancer",
+    "rate-limit",
+    "fallback",
+    "circuit-breaker"
+  ],
+  "homepage": "https://github.com/author/zero-llm-router#readme",
+  "bugs": {
+    "url": "https://github.com/author/zero-llm-router/issues"
+  },
+  "license": "MIT",
+  "author": "Author Name <author.name@mail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/author/zero-llm-router.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "test": "vp test",
+    "check": "vp check",
+    "prepublishOnly": "vp run build",
+    "prepare": "vp config"
+  },
+  "peerDependencies": {
+    "@ai-sdk/provider": "^3.0.0",
+    "ai": "^6.0.0"
+  },
+  "devDependencies": {
+    "@ai-sdk/openai": "^3.0.55",
+    "@ai-sdk/provider": "^3.0.10",
+    "@ai-sdk/provider-utils": "^4.0.25",
+    "@types/node": "^25.5.0",
+    "@typescript/native-preview": "7.0.0-dev.20260328.1",
+    "ai": "^6.0.172",
+    "bumpp": "^11.0.1",
+    "typescript": "^6.0.2",
+    "vite-plus": "^0.1.14"
+  },
+  "packageManager": "pnpm@10.33.2"
+}
