@@ -12,15 +12,15 @@
     "fallback",
     "circuit-breaker"
   ],
-  "homepage": "https://github.com/author/zero-llm-router#readme",
+  "homepage": "https://github.com/fazlulShanto/zero-llm-router#readme",
   "bugs": {
-    "url": "https://github.com/author/zero-llm-router/issues"
+    "url": "https://github.com/fazlulShanto/zero-llm-router/issues"
   },
   "license": "MIT",
-  "author": "Author Name <author.name@mail.com>",
+  "author": "Fazlul Shanto <[EMAIL_ADDRESS]>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/zero-llm-router.git"
+    "url": "git+https://github.com/fazlulShanto/zero-llm-router.git"
   },
   "files": [
     "dist"
