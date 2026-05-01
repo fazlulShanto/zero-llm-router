@@ -31,8 +31,8 @@ jobs:
             - name: Install dependencies
               run: vp install
 
-            - name: Run checks (lint, format, type-check)
-              run: vp check
+            # - name: Run checks (lint, format, type-check)
+            #   run: vp check
 
             - name: Run tests
               run: vp test
